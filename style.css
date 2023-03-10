@@ -1,0 +1,245 @@
+.container {
+    width: 100%;
+    background-color: #c8d8e4;
+   
+  }
+  .header {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 5px;
+    width: 100%;
+    background-color: #3582c4;
+    color: white;
+    height: 64px;
+    position: sticky;
+    
+    
+    
+  }
+  
+  .header-section {
+    height: 100%;
+    justify-content: center;
+  }
+  
+  
+  
+  .cnt {
+    display: flex;
+    justify-content: center;
+  }
+  .einsteinimage{
+    height: 500px;
+  }
+  .vc {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    color:black;
+    
+    }
+  
+  .nav-bar {
+    min-height: 40px;
+    background-color: white;
+    display: flex;
+    border-bottom: 1px solid #968484;
+    text-decoration: underline;
+    justify-content: space-around;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+  }
+  .sub {
+    height: 40px;
+  }
+  .tic {
+    background: #444 !important;
+    color: #fff;
+  }
+  
+  .gray-bg {
+    text-decoration: none;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mid {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+      0 1px 3px 0 rgb(0 0 0 / 12%);
+    padding: 5px 5px;
+    transition: 0.3s;
+    border-radius: 4px;
+    background: #3582c4 !important;
+    color: black ;
+    
+  }
+  .mid:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .margintop-10 {
+    margin-top: 10px;
+  }
+  .margintop-20 {
+    margin-top: 20px;
+  }
+  .padding-10 {
+    padding: 10px;
+  }
+  .ht-60 {
+    height: 60px;
+  }
+  .mr-r-l {
+    margin: 2px 5px;
+  }
+  .bb {
+    border-bottom: 1px solid #968484;
+  }
+  .about {
+    width: 50%;
+  }
+  
+  .pblts {
+    width: 24%;
+  }
+  .cop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px 5px;
+  }
+  
+  .button {
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: green;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+      0 1px 5px 0 rgb(0 0 0 / 12%);
+    box-sizing: border-box;
+    position: relative;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    -webkit-user-select: none;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: 400ms cubic-bezier(0.25, 0.8, 0.25, 1),
+      box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+  }
+  .paper-img {
+    width: 100%;
+  }
+  .hzt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .var {
+    position: relative;
+    top: 6px;
+  }
+  .contact-details {
+    width: 50%;
+    justify-content: space-around;
+  }
+  .contact-mid {
+    height: 110px;
+  }
+  .material-icons {
+    color: black ;
+  }
+  .hbs{
+    color:black;
+  }
+  .blg{
+    color: black;
+  }
+  .exp{
+    color:black;
+  }
+  body{
+    margin: 0px;
+    background-color: #303030;
+  }
+  @media only screen and (max-width: 610px) {
+    .nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .gray-bg {
+      width: 50%;
+      justify-content: center;
+    }
+  }
+  .einsteinimage{
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .paper-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .column-reverse {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .about {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .pblts {
+      width: 32%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .pblts {
+      width: 48%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .pblts {
+      width: 100%;
+    }
+  }
+  
